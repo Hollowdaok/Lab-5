@@ -19,7 +19,7 @@
 - Обробляйте винятки відповідно в кожному методі.
 - Створіть тестові класи, де ви моделюєте різні сценарії для тестування обробки виняткових ситуацій.
 ## Опис роботи
--Створено клас BankAccount з accountNumber, accountName і balance.
+- Створено клас BankAccount з accountNumber, accountName і balance.
 - Створено методи deposit(double amount), withdraw(double amount), getBalance() та getAccountSummary() щоб виконувувати дії над балансом.
 - Створено спеціальзовані класи винятки такі як:
 1. InsufficientFundsException - недостатньо коштів щоб провести операцію.

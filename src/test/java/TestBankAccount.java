@@ -26,7 +26,7 @@ class TestBankAccount {
     }
 
     @Test
-    void WithdrawShouldIncreaseAccountBalance() {
+    void WithdrawShouldDecreaseAccountBalance() {
         var withdrawAmount = 100;
         var balanceBeforeWithdraw = bankAccount.getBalance();
         bankAccount.withdraw(withdrawAmount);
